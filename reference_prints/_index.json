@@ -1,0 +1,55 @@
+{
+  "models": {
+    "openai/gpt-4o": {
+      "files": [
+        "openai__gpt-4o.json"
+      ],
+      "first_seen": "2026-04-05T03:22:49.451875+00:00",
+      "last_updated": "2026-04-05T03:22:49.451983+00:00",
+      "latest_hash": "seed_gpt4o"
+    },
+    "anthropic/claude-3.5-sonnet": {
+      "files": [
+        "anthropic__claude-3.5-sonnet.json"
+      ],
+      "first_seen": "2026-04-05T03:22:49.452203+00:00",
+      "last_updated": "2026-04-05T03:22:49.452205+00:00",
+      "latest_hash": "seed_claude35s"
+    },
+    "google/gemini-2.5-pro": {
+      "files": [
+        "google__gemini-2.5-pro.json"
+      ],
+      "first_seen": "2026-04-05T03:22:49.452410+00:00",
+      "last_updated": "2026-04-05T03:22:49.452412+00:00",
+      "latest_hash": "seed_gemini25p"
+    },
+    "meta-llama/llama-3.1-70b-instruct": {
+      "files": [
+        "meta-llama__llama-3.1-70b-instruct.json"
+      ],
+      "first_seen": "2026-04-05T03:22:49.452571+00:00",
+      "last_updated": "2026-04-05T03:22:49.452576+00:00",
+      "latest_hash": "seed_llama31_70b"
+    },
+    "x-ai/grok-3": {
+      "files": [
+        "x-ai__grok-3.json"
+      ],
+      "first_seen": "2026-04-05T03:22:49.452735+00:00",
+      "last_updated": "2026-04-05T03:22:49.452737+00:00",
+      "latest_hash": "seed_grok3"
+    },
+    "openai/gpt-4.1-nano": {
+      "files": [
+        "openai__gpt-4.1-nano.json",
+        "openai__gpt-4.1-nano_20260405_032815.json"
+      ],
+      "first_seen": "2026-04-05T03:24:05.282318+00:00",
+      "last_updated": "2026-04-05T03:28:15.465879+00:00",
+      "latest_hash": "49d7a55c1ca7fafd"
+    }
+  },
+  "last_updated": "2026-04-05T03:28:15.465893+00:00",
+  "version": 1
+}

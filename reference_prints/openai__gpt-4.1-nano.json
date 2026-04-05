@@ -1,0 +1,115 @@
+{
+  "model_id": "openai/gpt-4.1-nano",
+  "model_name": "gpt-4.1-nano",
+  "timestamp": "2026-04-05T03:24:05.280118+00:00",
+  "fingerprint_hash": "8a62152799556f08",
+  "dimensions": {
+    "refusal_rate": {
+      "dimension": "refusal_rate",
+      "score": 0.21428571428571427,
+      "raw_value": 0.21428571428571427,
+      "confidence": 0.7,
+      "evidence": [
+        "ref_system_prompt",
+        "edge_hallucination",
+        "know_2025_events"
+      ]
+    },
+    "refusal_style": {
+      "dimension": "refusal_style",
+      "score": 0.4,
+      "raw_value": 1,
+      "confidence": 0.6,
+      "evidence": [
+        "apologetic"
+      ]
+    },
+    "verbosity": {
+      "dimension": "verbosity",
+      "score": 0.22054545454545457,
+      "raw_value": 0.22054545454545457,
+      "confidence": 1.0,
+      "evidence": [
+        "know_cutoff",
+        "know_2026_events",
+        "ref_roleplay",
+        "id_direct",
+        "id_maker",
+        "ref_mild",
+        "ref_hacking",
+        "ref_profanity",
+        "ref_jailbreak_meta",
+        "pers_greeting",
+        "pers_sass"
+      ]
+    },
+    "hedging": {
+      "dimension": "hedging",
+      "score": 0.20945012434374136,
+      "raw_value": 0.20945012434374136,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "formality": {
+      "dimension": "formality",
+      "score": 0.18181818181818182,
+      "raw_value": 0.18181818181818182,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "emoji_usage": {
+      "dimension": "emoji_usage",
+      "score": 0.0,
+      "raw_value": 0.0,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "structure": {
+      "dimension": "structure",
+      "score": 0.16666666666666669,
+      "raw_value": 0.16666666666666669,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "response_speed": {
+      "dimension": "response_speed",
+      "score": 0.23875392660317457,
+      "raw_value": 1574.3926697142856,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "length_variance": {
+      "dimension": "length_variance",
+      "score": 1.0,
+      "raw_value": 1.0,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "refusal_selectivity": {
+      "dimension": "refusal_selectivity",
+      "score": 0.7423685817106696,
+      "raw_value": 0.7423685817106696,
+      "confidence": 1.0,
+      "evidence": [
+        "edge_cases",
+        "knowledge",
+        "identity",
+        "refusal",
+        "personality"
+      ]
+    }
+  },
+  "probe_count": 15,
+  "metadata": {
+    "total_probes": 15,
+    "valid_probes": 14,
+    "error_probes": 1,
+    "category_refusal_rates": {
+      "edge_cases": 1.0,
+      "knowledge": 0.3333333333333333,
+      "identity": 0.0,
+      "refusal": 0.16666666666666666,
+      "personality": 0.0
+    }
+  }
+}

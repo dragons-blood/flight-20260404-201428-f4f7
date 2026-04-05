@@ -1,0 +1,116 @@
+{
+  "model_id": "openai/gpt-4.1-nano",
+  "model_name": "gpt-4.1-nano",
+  "timestamp": "2026-04-05T03:28:15.463709+00:00",
+  "fingerprint_hash": "49d7a55c1ca7fafd",
+  "dimensions": {
+    "refusal_rate": {
+      "dimension": "refusal_rate",
+      "score": 0.2,
+      "raw_value": 0.2,
+      "confidence": 0.75,
+      "evidence": [
+        "ref_system_prompt",
+        "edge_hallucination",
+        "know_2025_events"
+      ]
+    },
+    "refusal_style": {
+      "dimension": "refusal_style",
+      "score": 0.4,
+      "raw_value": 1,
+      "confidence": 0.6,
+      "evidence": [
+        "apologetic"
+      ]
+    },
+    "verbosity": {
+      "dimension": "verbosity",
+      "score": 0.19599999999999998,
+      "raw_value": 0.19599999999999998,
+      "confidence": 1.0,
+      "evidence": [
+        "know_cutoff",
+        "know_2026_events",
+        "ref_roleplay",
+        "id_direct",
+        "id_maker",
+        "ref_mild",
+        "ref_hacking",
+        "ref_profanity",
+        "ref_jailbreak_meta",
+        "pers_greeting",
+        "pers_sass",
+        "edge_count"
+      ]
+    },
+    "hedging": {
+      "dimension": "hedging",
+      "score": 0.22576832151300238,
+      "raw_value": 0.22576832151300238,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "formality": {
+      "dimension": "formality",
+      "score": 0.25,
+      "raw_value": 0.25,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "emoji_usage": {
+      "dimension": "emoji_usage",
+      "score": 0.0,
+      "raw_value": 0.0,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "structure": {
+      "dimension": "structure",
+      "score": 0.1388888888888889,
+      "raw_value": 0.1388888888888889,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "response_speed": {
+      "dimension": "response_speed",
+      "score": 0.18387414383703704,
+      "raw_value": 1327.4336472666666,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "length_variance": {
+      "dimension": "length_variance",
+      "score": 1.0,
+      "raw_value": 1.0,
+      "confidence": 1.0,
+      "evidence": []
+    },
+    "refusal_selectivity": {
+      "dimension": "refusal_selectivity",
+      "score": 0.38873012632302006,
+      "raw_value": 0.38873012632302006,
+      "confidence": 1.0,
+      "evidence": [
+        "personality",
+        "identity",
+        "knowledge",
+        "edge_cases",
+        "refusal"
+      ]
+    }
+  },
+  "probe_count": 15,
+  "metadata": {
+    "total_probes": 15,
+    "valid_probes": 15,
+    "error_probes": 0,
+    "category_refusal_rates": {
+      "personality": 0.0,
+      "identity": 0.0,
+      "knowledge": 0.3333333333333333,
+      "edge_cases": 0.5,
+      "refusal": 0.16666666666666666
+    }
+  }
+}
